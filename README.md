@@ -37,4 +37,22 @@ IoT25_Software_Task2/
 │   ├── iot_dataset.csv         # Raw IoT sensor readings
 │   └── iot_dataset_mapping.csv # Sensor-to-vertical mapping file
 │
-├── README.md                   
+├── README.md
+
+# Data Processing & Logic Implemented
+It focuses on **data preprocessing, mapping, and analytical logic** to support IoT data visualization.
+The following processing steps and logic are implemented:
+
+- **Dataset Loading:**  
+  IoT sensor data is loaded from CSV files using Pandas for efficient processing.
+- **Sensor-to-Vertical Mapping:**  
+  Sensor readings are mapped to their respective smart city verticals (Air Quality, Water Flow, Street Lighting) using the mapping dataset.
+- **Data Filtering & Grouping:**  
+  Data is filtered and grouped based on vertical type to generate structured outputs for each dashboard.
+- **API-Level Aggregation:**  
+  Processed data is exposed through FastAPI REST endpoints, allowing the frontend to fetch vertical-wise insights.
+- **Visualization-Oriented Formatting:**  
+  Data is formatted specifically for frontend visualization libraries to enable smooth chart rendering.
+  
+
+
