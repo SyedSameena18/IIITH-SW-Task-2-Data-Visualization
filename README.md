@@ -74,7 +74,6 @@ Separate dashboards are implemented for:
 Each dashboard fetches data from the corresponding backend API endpoint and renders interactive charts for analysis.
 
 ## How to Run the Project
- ```bash
 #Backend:
 pip install -r requirements.txt
 uvicorn api_app:app --reload
@@ -82,7 +81,33 @@ uvicorn api_app:app --reload
 npm install
 npm start
 
+# Technologies Used
+- Backend      : Python, FastAPI, Pandas  
+- Frontend     : React.js, Apache ECharts  
+- Data Format  : CSV  
+- Architecture : REST-based full-stack application
 
+# Dataset Description
+The dataset contains IoT readings with sensor-mapped values.
+Files included:
 
+ 1. iot_dataset.csv
+This file contains the raw IoT sensor readings collected from different nodes.
+- Sensor readings recorded over time
+- Node and sensor identifiers
+- Data values corresponding to different IoT parameters
+This dataset serves as the primary input for backend data processing and visualization.
 
+ 2. iot_dataset_mapping.csv
+This file defines the mapping between sensors and their respective smart city verticals.
+- Sensor IDs
+- Node IDs
+- Corresponding vertical classification (AQ, WF, SL)
+This mapping file is used to group and route sensor data to the appropriate dashboards.
+
+👩‍💻 Author
+Syed Sameena
+CSE (AIDS) – B.Tech
+Software Task-1 (SW) submission
+IIIT Hyderabad – ACE
 
