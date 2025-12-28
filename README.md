@@ -88,23 +88,28 @@ npm start
 - Data Format  : CSV  
 - Architecture : REST-based full-stack application
 
-# Dataset Description
-- The dataset contains IoT readings with sensor-mapped values.
-Files included:
+# Dataset
+The project uses real-world IoT sensor data collected from multiple nodes across different smart city verticals.  
+The dataset is used for data preprocessing, backend API responses, and frontend visualization.
 
- 1. iot_dataset.csv
-This file contains the raw IoT sensor readings collected from different nodes.
-- Sensor readings recorded over time
-- Node and sensor identifiers
-- Data values corresponding to different IoT parameters
-This dataset serves as the primary input for backend data processing and visualization.
+**Files included:**
+- `iot_dataset.csv` – Contains raw IoT sensor readings such as timestamped measurements from various sensors
+- `iot_dataset_mapping.csv` – Maps sensor IDs and node information to their respective smart city verticals:
+  - Air Quality (AQ)
+  - Water Flow (WF)
+  - Street Lighting (SL)
+Both dataset files are available in the `data/` directory.
 
- 2. iot_dataset_mapping.csv
-This file defines the mapping between sensors and their respective smart city verticals.
-- Sensor IDs
-- Node IDs
-- Corresponding vertical classification (AQ, WF, SL)
-This mapping file is used to group and route sensor data to the appropriate dashboards.
+# IIITH SW Task Report
+The complete project report provides a detailed explanation of the work carried out in this task, including:
+- Problem statement and objectives  
+- Dataset understanding and preprocessing steps  
+- Backend implementation using FastAPI  
+- Frontend dashboard development using React.js and Apache ECharts  
+- Results, observations, and conclusion  
+**Report file:**
+- `IoT25_Sameena_Report.docx`
+The report is available in the `report/` directory.
 
 # 👩‍💻 Author
 **Syed Sameena**  
