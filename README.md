@@ -77,6 +77,7 @@ Each dashboard fetches data from the corresponding backend API endpoint and rend
 #Backend:
 pip install -r requirements.txt
 uvicorn api_app:app --reload
+
 #Frontend:
 npm install
 npm start
@@ -88,7 +89,7 @@ npm start
 - Architecture : REST-based full-stack application
 
 # Dataset Description
-The dataset contains IoT readings with sensor-mapped values.
+- The dataset contains IoT readings with sensor-mapped values.
 Files included:
 
  1. iot_dataset.csv
@@ -105,7 +106,7 @@ This file defines the mapping between sensors and their respective smart city ve
 - Corresponding vertical classification (AQ, WF, SL)
 This mapping file is used to group and route sensor data to the appropriate dashboards.
 
-👩‍💻 Author
+# 👩‍💻 Author
 Syed Sameena
 CSE (AIDS) – B.Tech
 Software Task-1 (SW) submission
