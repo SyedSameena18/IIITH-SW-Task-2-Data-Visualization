@@ -107,8 +107,7 @@ This file defines the mapping between sensors and their respective smart city ve
 This mapping file is used to group and route sensor data to the appropriate dashboards.
 
 # 👩‍💻 Author
-Syed Sameena
-CSE (AIDS) – B.Tech
-Software Task-1 (SW) submission
-IIIT Hyderabad – ACE
+**Syed Sameena**  
+B.Tech – Computer Science Engineering (AIDS)  
+IIIT Hyderabad – IoT’25 Program
 
