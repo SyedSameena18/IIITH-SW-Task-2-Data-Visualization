@@ -3,21 +3,21 @@
 This repository contains my official Software Task-2 submission for the IoT’25 program.
 The task focuses on designing and implementing a full-stack IoT data visualization system using real-world sensor datasets. It involves preprocessing and mapping IoT sensor data, exposing structured insights through FastAPI-based REST APIs, and visualizing the data using a React.js dashboard for multiple smart city verticals, including Air Quality (AQ), Water Flow (WF), and Street Lighting (SL).This submission includes:
 
-. Structured IoT datasets and mapping files
-. A backend service for data processing and API generation
-. An interactive frontend for visual analytics and dashboards
+- Structured IoT datasets and mapping files
+- A backend service for data processing and API generation
+- An interactive frontend for visual analytics and dashboards
 
-Task Objectives
+# Task Objectives
 
 The primary objectives of this task are:
-. To understand and preprocess real-world IoT sensor datasets for analytical use
-. To map raw sensor readings to their respective smart city verticals (AQ, WF, SL)
-. To design and implement RESTful APIs using FastAPI for structured data access
-. To build an interactive frontend dashboard for visualizing IoT data insights
-. To integrate backend and frontend components into a complete full-stack system
-. To demonstrate practical skills in Python, data handling, API development, and visualization
+- To understand and preprocess real-world IoT sensor datasets for analytical use
+- To map raw sensor readings to their respective smart city verticals (AQ, WF, SL)
+- To design and implement RESTful APIs using FastAPI for structured data access
+- To build an interactive frontend dashboard for visualizing IoT data insights
+- To integrate backend and frontend components into a complete full-stack system
+- To demonstrate practical skills in Python, data handling, API development, and visualization
 
-Repository Structure
+# Repository Structure
 
 The repository is organized to clearly separate backend logic, frontend components, and datasets, ensuring modularity and ease of understanding.
 IoT25_Software_Task2/
