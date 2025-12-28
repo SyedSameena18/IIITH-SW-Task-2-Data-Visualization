@@ -53,6 +53,34 @@ The following processing steps and logic are implemented:
   Processed data is exposed through FastAPI REST endpoints, allowing the frontend to fetch vertical-wise insights.
 - **Visualization-Oriented Formatting:**  
   Data is formatted specifically for frontend visualization libraries to enable smooth chart rendering.
+
+# API Endpoints Implemented
+The backend exposes RESTful APIs using FastAPI to serve processed IoT data to the frontend dashboards.
+The following endpoints are implemented:
+
+| Endpoint | Method | Description |
+|--------|--------|-------------|
+| `/aq` | GET | Returns processed Air Quality (AQ) sensor data |
+| `/wf` | GET | Returns processed Water Flow (WF) sensor data |
+| `/sl` | GET | Returns processed Street Lighting (SL) sensor data |
+Each endpoint fetches vertical-specific data after preprocessing and mapping, ensuring clean and structured responses for frontend visualization.
+
+# Frontend Dashboards
+The frontend is built using React.js and Apache ECharts to visualize IoT sensor data.
+Separate dashboards are implemented for:
+- Air Quality (AQ)
+- Water Flow (WF)
+- Street Lighting (SL)
+Each dashboard fetches data from the corresponding backend API endpoint and renders interactive charts for analysis.
+
+## How to Run the Project
+## Backend
+```bash
+pip install -r requirements.txt
+uvicorn api_app:app --reload
+
+
+
   
 
 
