@@ -74,11 +74,14 @@ Separate dashboards are implemented for:
 Each dashboard fetches data from the corresponding backend API endpoint and renders interactive charts for analysis.
 
 ## How to Run the Project
-## Backend
+Backend 
 ```bash
 pip install -r requirements.txt
 uvicorn api_app:app --reload
 
+Frontend
+npm install
+npm start
 
 
   
