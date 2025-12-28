@@ -8,8 +8,8 @@ The task focuses on designing and implementing a full-stack IoT data visualizati
 . An interactive frontend for visual analytics and dashboards
 
 Task Objectives
-The primary objectives of this task are:
 
+The primary objectives of this task are:
 . To understand and preprocess real-world IoT sensor datasets for analytical use
 . To map raw sensor readings to their respective smart city verticals (AQ, WF, SL)
 . To design and implement RESTful APIs using FastAPI for structured data access
@@ -18,6 +18,7 @@ The primary objectives of this task are:
 . To demonstrate practical skills in Python, data handling, API development, and visualization
 
 Repository Structure
+
 The repository is organized to clearly separate backend logic, frontend components, and datasets, ensuring modularity and ease of understanding.
 IoT25_Software_Task2/
 │
